@@ -1,0 +1,100 @@
+/*Global styling*/
+* {padding:0;
+    margin:0;
+    box-sizing: border-box;}   
+    
+body{font-family: Georgia, 'Times New Roman', Times, serif;}
+a{text-decoration: none;
+}
+
+
+ a:hover{color:#0000ff;
+    
+    background-color: #ffffff;
+    border-bottom: 2px solid #0000ff;
+}
+
+/*Navigation link styling*/
+.nav-link{color:#808080;
+    padding:10px;
+    text-align: center;   
+}
+
+li{list-style-type: none;
+}
+nav{margin-top:10px;}
+
+nav ul{display: inline-block;}
+nav ul li{display: inline;
+padding:20px;
+}
+
+.menu-icon{margin-left:20px;
+color:#808080;}
+
+
+/*Main content layout*/
+figure img{width:30%;
+    cursor: pointer;
+}
+
+figure{display:flex;
+justify-content: center;
+margin-top:200px;}
+
+.Search-input{display:flex;
+justify-content: center;
+margin-bottom:10px;
+}
+
+
+.search-box{
+-ms-flex: .5;
+-moz-box-flex: .5;
+-webkit-box-flex: .5;
+flex:.5;
+margin-bottom:30px;
+margin-top:30px;
+height:40px;
+
+}
+
+.google-title{text-align: center;
+margin-bottom:10px;}
+
+.lang-link ul{display:flex;
+justify-content: center;
+}
+
+.lang-link ul li a{padding:10px;
+color:#0000ff;
+font-size: 14px;}
+
+/*Footer layout*/
+
+footer{margin-top:180px;
+    background-color: #f5f5f5;
+}
+
+.footer-style{display:flex;
+justify-content: center;
+font-size:14px;
+}
+
+.footer-style a{padding: 10px;
+color:#808080;}
+
+.footer-style-2{display: flex;
+justify-content: center;
+font-size:14px;}
+
+.footer-style-2 a{padding:10px;
+color:#808080;}
+
+#Nigeria{margin-left:5px;
+color:#808080;
+background-color: #f5f5f5;
+border-bottom: 1px solid;
+padding:5px;
+}
+
